@@ -21,9 +21,9 @@
 # age = int(input('Введите возраст: '))
 # weight = int(input('Введите вес: '))
 #
-# if(age <= 30 and weight >= 50 or weight <= 120):
+# if(age <= 30 and weight >= 50 and weight <= 120):
 #     print(name, " ", surname, ", возраст - ", age, ", вес - ", weight, " кг: в хорошем состоянии!", sep='')
-# if(age > 30 and weight < 50 or weight > 120):
+# if(age > 30 and age <= 40 and weight < 50 or weight > 120):
 #     print(name, " ", surname, ", возраст - ", age, "вес - ", weight, " кг: займись собой!", sep='')
 # if(age > 40 and weight < 50 or weight > 120):
 #     print(name, " ", surname, ", возраст - ", age, "вес - ", weight, " кг: обратись к врачу!", sep='')
