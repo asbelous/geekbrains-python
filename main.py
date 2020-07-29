@@ -78,7 +78,7 @@
 #     '31' : 'тридцать первое'
 # }
 #
-# monthes = {
+# months = {
 #     '01' : 'января',
 #     '02' : 'февраля',
 #     '03' : 'марта',
@@ -97,6 +97,16 @@
 #
 # data = data.split('.')
 # day = days[data[0]]
-# month = monthes[data[1]]
+# month = months[data[1]]
 #
 # print(f'{day} {month} {data[2]} года')
+
+# 6 Задание
+
+numbers = [2, 2, 5, 12, 8, 2, 12, 7]
+
+result = []
+for num in numbers:
+    if numbers.count(num) == 1:
+        result.append(num)
+print(result)
