@@ -103,10 +103,27 @@
 
 # 6 Задание
 
-numbers = [2, 2, 5, 12, 8, 2, 12, 7]
+# numbers = [2, 2, 5, 12, 8, 2, 12, 7]
+#
+# result = []
+# for num in numbers:
+#     if numbers.count(num) == 1:
+#         result.append(num)
+# print(result)
 
-result = []
-for num in numbers:
-    if numbers.count(num) == 1:
-        result.append(num)
-print(result)
+# 7 Задание Угадай число
+
+# import random
+#
+# min_number = 1
+# max_number = 100
+# result = None
+# while result != '=':
+#     number = random.randint(min_number, max_number)
+#     print(number)
+#     result = input('= > < ')
+#     if result == '>':
+#         min_number = number + 1
+#     elif result == '<':
+#         max_number = number - 1
+# print('Победа')
