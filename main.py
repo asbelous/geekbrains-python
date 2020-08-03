@@ -127,3 +127,13 @@
 #     elif result == '<':
 #         max_number = number - 1
 # print('Победа')
+
+# 8 Задание
+
+# def person(name, age, city):
+#     print(f'{name}, {age} год, проживает в городе {city}')
+#
+# name = input("Введите имя: ")
+# age = input("Введите возраст: ")
+# city = input("Введите город: ")
+# person(name, age, city)
