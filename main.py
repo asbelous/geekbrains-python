@@ -137,3 +137,14 @@
 # age = input("Введите возраст: ")
 # city = input("Введите город: ")
 # person(name, age, city)
+
+# 9 Задание
+
+# def maxi(a, b, c):
+#     maxi = max(a, b, c)
+#     print(f'Наибольшее число - {maxi}')
+#
+# a = input("Введите первое число: ")
+# b = input("Введите второе число: ")
+# c = input("Введите третье число: ")
+# maxi(a, b ,c)
