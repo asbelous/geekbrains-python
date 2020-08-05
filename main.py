@@ -148,3 +148,28 @@
 # b = input("Введите второе число: ")
 # c = input("Введите третье число: ")
 # maxi(a, b ,c)
+
+# 10 Задание
+
+# player_name = input("Введите имя игрока: ")
+# enemy_name = input("Введите имя противника: ")
+#
+# player = {
+#     "name": player_name,
+#     "health": 100,
+#     "damage": 50
+# }
+#
+# enemy = {
+#     "name": enemy_name,
+#     "health": 100,
+#     "damage": 50
+# }
+#
+# def attack(pers1, pers2):
+#     dmg = pers1["damage"]
+#     hp = pers2["health"] - dmg
+#     pers2["health"] = hp
+#     print(f'{pers1["name"]} наносит {dmg} урона {pers2["name"]}. Здоровья у {pers2["name"]} осталось {hp}.')
+#
+# attack(player, enemy)
