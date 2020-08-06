@@ -131,23 +131,23 @@
 # 8 Задание
 
 # def person(name, age, city):
-#     print(f'{name}, {age} год, проживает в городе {city}')
+#     return f'{name}, {age} год, проживает в городе {city}'
 #
 # name = input("Введите имя: ")
 # age = input("Введите возраст: ")
 # city = input("Введите город: ")
-# person(name, age, city)
+# print(person(name, age, city))
 
 # 9 Задание
 
-# def maxi(a, b, c):
+# def get_max(a, b, c):
 #     maxi = max(a, b, c)
-#     print(f'Наибольшее число - {maxi}')
+#     return f'Наибольшее число - {maxi}'
 #
 # a = input("Введите первое число: ")
 # b = input("Введите второе число: ")
 # c = input("Введите третье число: ")
-# maxi(a, b ,c)
+# print(get_max(a, b ,c))
 
 # 10 Задание
 
@@ -167,9 +167,36 @@
 # }
 #
 # def attack(pers1, pers2):
-#     dmg = pers1["damage"]
-#     hp = pers2["health"] - dmg
-#     pers2["health"] = hp
-#     print(f'{pers1["name"]} наносит {dmg} урона {pers2["name"]}. Здоровья у {pers2["name"]} осталось {hp}.')
+#     pers2["health"] -= pers1["damage"]
+#     print(f'{pers1["name"]} наносит {pers1["damage"]} урона {pers2["name"]}. Здоровья у {pers2["name"]} осталось {pers2["health"]}.')
+#
+# attack(player, enemy)
+
+# 11 Задание
+
+# player_name = input("Введите имя игрока: ")
+# enemy_name = input("Введите имя противника: ")
+#
+# player = {
+#     "name": player_name,
+#     "health": 1000,
+#     "damage": 50,
+#     "armor": 1.2
+# }
+#
+# enemy = {
+#     "name": enemy_name,
+#     "health": 1200,
+#     "damage": 40,
+#     "armor": 1.3
+# }
+#
+# def get_damage(damage, armor):
+#     return damage / armor
+#
+# def attack(pers1, pers2):
+#     damage = get_damage(pers1["damage"], pers2["armor"])
+#     pers2["health"] -= damage
+#     print(f'{pers1["name"]} наносит {pers1["damage"]} урона {pers2["name"]}. Здоровья у {pers2["name"]} осталось {int(pers2["health"])}.')
 #
 # attack(player, enemy)
