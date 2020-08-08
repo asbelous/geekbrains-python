@@ -200,3 +200,10 @@
 #     print(f'{pers1["name"]} наносит {pers1["damage"]} урона {pers2["name"]}. Здоровья у {pers2["name"]} осталось {int(pers2["health"])}.')
 #
 # attack(player, enemy)
+
+# 12 Задание
+
+# import dir
+
+# dir.make_dir()
+# dir.remove_dir()
