@@ -207,3 +207,11 @@
 
 # dir.make_dir()
 # dir.remove_dir()
+
+# 13 Задание
+
+# import randomlist
+#
+# list = [1, 2, 3, 4]
+# print(randomlist.get_random(list))
+# print(randomlist.get_random([]))
