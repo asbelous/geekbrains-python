@@ -1,7 +1,7 @@
 # 1 задание
 
-#number = int(input('Введите число: '))
-#print('Ваш результат: ', number + 2)
+# number = int(input('Введите число: '))
+# print('Ваш результат: ', number + 2)
 
 # 2 задание
 
@@ -168,7 +168,8 @@
 #
 # def attack(pers1, pers2):
 #     pers2["health"] -= pers1["damage"]
-#     print(f'{pers1["name"]} наносит {pers1["damage"]} урона {pers2["name"]}. Здоровья у {pers2["name"]} осталось {pers2["health"]}.')
+#     print(f'{pers1["name"]} наносит {pers1["damage"]} урона {pers2["name"]}.
+#     Здоровья у {pers2["name"]} осталось {pers2["health"]}.')
 #
 # attack(player, enemy)
 
@@ -197,7 +198,8 @@
 # def attack(pers1, pers2):
 #     damage = get_damage(pers1["damage"], pers2["armor"])
 #     pers2["health"] -= damage
-#     print(f'{pers1["name"]} наносит {pers1["damage"]} урона {pers2["name"]}. Здоровья у {pers2["name"]} осталось {int(pers2["health"])}.')
+#     print(f'{pers1["name"]} наносит {pers1["damage"]} урона {pers2["name"]}.
+#     Здоровья у {pers2["name"]} осталось {int(pers2["health"])}.')
 #
 # attack(player, enemy)
 
@@ -213,10 +215,25 @@
 # import randomlist
 #
 # list = [1, 2, 3, 4]
-# print(randomlist.get_random(list))
-# print(randomlist.get_random([]))
+# print(get_random(list))
+# print(get_random([]))
 
 # 14 Задание
 
 # import music_serialize
 # import music_deserialize
+
+# 15 Задание
+
+# fruits1 = ['apple', 'banana', 'orange', 'kiwi', 'pear']
+# fruits2 = ['banana', 'kiwi', 'tangerine']
+#
+# # result = []
+#
+# # for fruit in fruits1:
+# #     if fruit in fruits2:
+# #         result.append(fruit)
+#
+# result = [fruit for fruit in fruits1 if fruit in fruits2]
+#
+# print(result)
